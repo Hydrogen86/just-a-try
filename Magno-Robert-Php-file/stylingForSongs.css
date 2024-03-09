@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: url(Image-resources/Main-Background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    text-align: none;
+    border-radius: 25px;
+    max-width: 800px;
+    margin: 20px auto; 
+    background: url(Image-resources/Wood\ Background.jpg) no-repeat;
+    background-size: cover;
+    padding: 20px 20px 20px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.582);
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-bottom: 0;
+}
+h4 {
+    margin-top: 5px;
+}
+a {
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    display: flex;
+    color: #333;
+    font-size: 20px;
+    transition: .5s;
+}
+a:hover {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
